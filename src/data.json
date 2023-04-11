@@ -1,0 +1,132 @@
+{
+  "portfolio": [
+    {
+      "id": 1,
+      "title": "Web Apps",
+      "slug": "webapps",
+      "image": "webapps.jpg",
+      "applications": [
+        {
+          "id": 1,
+          "title": "Astro Template",
+          "slug": "astro",
+          "image": "/astro.png",
+          "link": "https://github.com/miadugas/astro-template",
+          "site": "https://astro-test138.netlify.app/",
+          "description": "Ecommerce site for Tim Furlow Fine Art. Includes an admin area to manage orders, users & inventory. Payment processing through PayPal."
+        },
+        {
+          "id": 2,
+          "title": "JS Tetris",
+          "slug": "tetris",
+          "image": "/tetris.png",
+          "link": "https://github.com/miadugas/JS-Tetris",
+          "site": "https://miadugas.github.io/JS-Tetris/",
+          "description": "The game requires players to rotate and move falling Tetris pieces. Players clear lines by completing horizontal rows of blocks without empty cells. But, if the pieces reach the top, the game is over. Some of the concepts used in building this were: graphics, game loops, and collision detection. This is a fully functioning game with points and levels."
+        },
+        {
+          "id": 3,
+          "title": "Tim Furlow Fine Art",
+          "slug": "tffa",
+          "image": "/tffa.png",
+          "link": "https://github.com/miadugas/timfurlow_artsite",
+          "site": "https://timfurlowfineart.vercel.app/",
+          "description": "Ecommerce site for Tim Furlow Fine Art. Includes an admin area to manage orders, users & inventory. Payment processing through PayPal."
+        },
+        {
+          "id": 4,
+          "title": "Muse Messenger",
+          "slug": "muse",
+          "image": "/muse.png",
+          "link": "https://github.com/miadugas/Muze-Messenger",
+          "site": "https://affectionate-shirley-f54a8b.netlify.com/",
+          "description": "Realtime Jamstack chat application. A realtime chat Jamstack application with server side deployed to Heroku and client side deployed to Netlify & Github. This standalone application can be easily integrated into existing or new builds."
+        },
+        {
+          "id": 5,
+          "title": "Color Tuner",
+          "slug": "color-tuner",
+          "image": "/color-tuner.png",
+          "link": "https://github.com/miadugas/color-tuner",
+          "site": "https://miacodes-colortuner.netlify.app/",
+          "description": "The user inputs a hex color and returned are the tints (lighter colors) and shades (darker colors) of the hex color. Useful while putting together UI direction when looking the the perfect combination of colors. Once a color is selected user can click the color to copy it to the clipboard."
+        },
+        {
+          "id": 6,
+          "title": "Python Scraper",
+          "slug": "scraper",
+          "image": "/pyscraper.png",
+          "link": "https://github.com/miadugas/Scraper",
+          "description": "Automated Python Web Scraping Bot built with Beautiful Soup with the ability to send CSV of extracted info to an email address. The CSV will be named for the day created so that an archive can be kept of the scrapped data."
+        },
+        {
+          "id": 7,
+          "title": "Marbas",
+          "slug": "marbas",
+          "image": "/marbas.png",
+          "link": "https://github.com/miadugas/marbas",
+          "site": "https://marbas.netlify.app/",
+          "description": "Cryptocurrency Dashboard built in React. Using localStorage the app greets the user on first visit, asking them to choose their favorite Coins. Coin search provided by fuzzy search. User can add/remove coins on the list of favorites. Chosen coins are disabled. Confirm Favorite Coin Remembers values for the user & generates dashboard prices & historical data. The dashboard data initializes from remembered favorites & displays 5 major Coins for first 5 favorites and compact Coins for next 5. User can then render a line chart for the 10 historical points on current favorite Coin. Line chart renders historical points on Date: Days Weeks Months."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Desktop",
+      "slug": "desktop",
+      "image": "desktop.jpg",
+      "applications": [
+        {
+          "id": 8,
+          "title": "Gremlin Tracker",
+          "slug": "gremin",
+          "image": "/gremlin.png",
+          "link": "https://github.com/miadugas/Gremlin-Tracker",
+          "description": "ReactJS/ElectronJS client app that uses a MongoDB Atlas database to keep track of system gremlins & bugs for remote teams."
+        },
+        {
+          "id": 9,
+          "title": "ImageShrinker",
+          "slug": "ishrink",
+          "image": "/ishrink.png",
+          "link": "https://github.com/miadugas/ImageShrinker",
+          "description": "A desktop app built on Electron to optimize images for websites without losing quality."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Mobile/PWA",
+      "slug": "mbpwa",
+      "image": "mbpwa.jpg",
+      "applications": [
+        {
+          "id": 10,
+          "title": "iLoftz",
+          "slug": "iloftz",
+          "image": "/iloftz.png",
+          "link": "https://github.com/miadugas/iLoftz_app",
+          "site": "https://iloftz.firebaseapp.com/auth",
+          "description": "This app will be a hybrid AirBnB / Yelp app for couch surfers where users can create accounts, book and rate properties. "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Showcase",
+      "slug": "showcase",
+      "image": "showcase.jpg",
+      "applications": [
+        {
+          "id": 11,
+          "title": "Grayify",
+          "slug": "grayify",
+          "image": "/grayify.png",
+          "link": "https://github.com/miadugas/grayify",
+          "site": "https://grayify.vercel.app/",
+          "description": "A utility application that converts color pictures into grayscale pictures. User can choose to save as JPEG or PNG, adjust the size of the image upload and save locally."
+        }
+      ]
+    }
+  ]
+}
