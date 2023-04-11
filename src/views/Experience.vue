@@ -2,6 +2,10 @@
   <div>Experience</div>
 </template>
 
-<script lang="ts"></script>
+<script lang="ts">
+export default {
+  name: 'Experience',
+  }
+</script>
 
-<style lang="scss" scoped></style>
+<style scoped></style>
