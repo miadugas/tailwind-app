@@ -7,7 +7,7 @@
           <div v-for="item in showcaseItems" :key="item.id" class="showcase-item">
             <h1>{{ item.title }}</h1>
             <p>{{ item.description }}</p>
-            <img :src="'/img/' + item.image" :alt="item.title" />
+            <img :src="'img/' + item.image" :alt="item.title" />
             <a :href="item.link">GitHub</a>
             <a :href="item.site">Website</a>
           </div>

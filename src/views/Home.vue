@@ -49,5 +49,13 @@ export default defineComponent({
 </script>
 
 <style scoped>
+.mc {
+  font-family: 'Ubuntu', sans-serif;
+
+  font-weight: bold;
+  color: #474747;
+  text-align: center;
+  text-shadow: 20px 10px 0px #e7e1ff, -15px -6px 0px #d7f6ff;
+}
 </style>
 
