@@ -13,7 +13,7 @@
           "image": "/img/astro.png",
           "link": "https://github.com/miadugas/astro-template",
           "site": "https://astro-test138.netlify.app/",
-          "description": "Ecommerce site for Tim Furlow Fine Art. Includes an admin area to manage orders, users & inventory. Payment processing through PayPal."
+          "description": "Astro is an amazing open source static site generator designed for building content-rich websites. This allows you to build really fast websites with little to no production JavaScript. You can use Astro components as well as components from other frameworks such as React, Vue and Svelte."
         },
         {
           "id": 2,

@@ -24,9 +24,9 @@
         <li>
           <router-link to="/experience" class="mr-4 md:mr-6">Experience</router-link>
         </li>
-        <li>
+        <!-- <li>
           <router-link to="/about" class="mr-4 md:mr-6">About</router-link>
-        </li>
+        </li> -->
         <li>
           <router-link to="/contact" class="mr-4 md:mr-6">Contact</router-link>
         </li>

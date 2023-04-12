@@ -35,7 +35,7 @@
             <RouterLink to="/">Home</RouterLink>
           </li>
           <li><RouterLink to="/experience">Experience</RouterLink></li>
-          <li><RouterLink to="/about">About</RouterLink></li>
+          <!-- <li><RouterLink to="/about">About</RouterLink></li> -->
           <li><RouterLink to="/contact">Contact</RouterLink></li>
           <li>
             <RouterLink to="/portfolio"> Portfolio</RouterLink>
