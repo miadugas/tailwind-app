@@ -46,60 +46,23 @@
               needs. I look forward to hearing from you.
             </p>
           </div>
+  <div class="flex justify-center mt-4">
+    <div class="mr-4">
+        <form action="mailto:miadugas@outlook.com">
+      <v-btn color="black" dark>
+        <v-icon left>mdi-email</v-icon>
+        Email Me
+      </v-btn>
+      </form>
+    </div>
+    <div>
+      <v-btn color="black" dark @click="showCalendlyWidget">
+        <v-icon left>mdi-calendar</v-icon>
+        Schedule a Call
+      </v-btn>
+    </div>
+  </div>
 
-          <div class="flex justify-center mt-4">
-            <div class="mr-4">
-              <form action="mailto:miadugas@outlook.com">
-                <button
-                  type="submit"
-                  class="flex items-center justify-center w-full px-4 py-2 mt-2 space-x-3 text-sm text-center bg-blue-500 text-white transition-colors duration-200 transform border rounded-lg dark:text-gray-300 dark:border-gray-300 hover:bg-gray-600 dark:hover:bg-gray-700"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    class="feather feather-send"
-                  >
-                    <line x1="22" y1="2" x2="11" y2="13"></line>
-                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                  </svg>
-                  Email Me
-                </button>
-              </form>
-            </div>
-            <div>
-              <button
-                type="button"
-             @click="showCalendlyWidget"
-                class="flex items-center justify-center w-full px-4 py-2 mt-2 space-x-3 text-sm text-center bg-blue-500 text-white transition-colors duration-200 transform border rounded-lg dark:text-gray-300 dark:border-gray-300 hover:bg-gray-600 dark:hover:bg-gray-700"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  class="feather feather-calendar"
-                >
-                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
-                  <line x1="16" y1="2" x2="16" y2="6"></line>
-                  <line x1="8" y1="2" x2="8" y2="6"></line>
-                  <line x1="3" y1="10" x2="21" y2="10"></line>
-                </svg>
-                Schedule a Call
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </section>

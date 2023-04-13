@@ -11,51 +11,60 @@
 
           <strong class="mc block font-extrabold"> A Denver Developer </strong>
         </h1>
-
-        <p class="mt-4 max-w-lg sm:text-xl sm:leading-relaxed">
-          practicing minimalist & I build cool things for the web.
-        </p>
-
-        <div class="mt-10 flex items-center justify-center gap-x-6">
-          <button
-            href="/docs/MiaDugas2023.pdf"
-            target="_blank"
-            class="rounded-md bg-indigo-700 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >Resume</button
-          >
-          <button
-            @click="showCalendlyWidget"
-            class="btn bg-white text-sm font-semibold leading-6 text-indigo-700"
-            >Schedule a Call<span aria-hidden="true">→</span></button
-          >
+        <div class="mask-background">
+          <p class="masked-text">
+            practicing minimalist & I build cool things for the web.
+          </p>
         </div>
+
+        <v-container mt-10>
+          <v-row justify="center">
+            <v-col cols="auto">
+              <v-btn
+                color="black"
+                href="/docs/MiaDugas2023.pdf"
+                target="_blank"
+                elevation="24"
+                >Resume
+                <v-icon end icon="mdi-file-outline"></v-icon>
+              </v-btn>
+            </v-col>
+
+            <v-col cols="auto">
+              <v-btn @click="showCalendlyWidget" elevation="24" color="black"
+                >Schedule Call
+                <v-icon end icon="mdi-calendar-clock"></v-icon>
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-container>
       </div>
     </div>
   </section>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent } from "vue";
 
 export default defineComponent({
   setup() {
     const showCalendlyWidget = () => {
-      const calendlyURL = 'https://calendly.com/miadugas/30min';
+      const calendlyURL = "https://calendly.com/miadugas/30min";
       const windowFeatures =
-        'width=800,height=600,status=yes,toolbar=no,menubar=no,location=no,scrollbars=yes';
-      const newWindow = window.open('', '_blank', windowFeatures);
+        "width=800,height=600,status=yes,toolbar=no,menubar=no,location=no,scrollbars=yes";
+      const newWindow = window.open("", "_blank", windowFeatures);
 
       if (newWindow) {
         newWindow.document.write(
-          `<html><head><title>Calendly</title></head><body><iframe src="${calendlyURL}" frameborder="0" width="100%" height="100%"></iframe></body></html>`
+          `<html><head><title>Calendly</title></head><body><iframe src="${calendlyURL}" frameborder="0" width="100%" height="100%"></iframe></body></html>`,
         );
         newWindow.document.close();
       }
       return false;
     };
     const backdropStyle = {
-      background: 'hsla(0, 0%, 100%, 0.55)',
-      backdropFilter: 'blur(5px)',
+      background: "hsla(0, 0%, 100%, 0.55)",
+      backdropFilter: "blur(5px)",
     };
 
     return {
@@ -68,7 +77,7 @@ export default defineComponent({
 
 <style scoped>
 .item-container .bg-gray-500::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -116,12 +125,23 @@ export default defineComponent({
 
 .mc {
   margin: 40px auto;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
 
   font-weight: bold;
   color: #000000;
   text-align: center;
   text-shadow: 20px 10px 0px #e7e1ff, -15px -6px 0px #d7f6ff;
+}
+.mask-background {
+  background-color: rgb(255, 255, 255); /* Set background color and opacity */
+  display: inline-block; /* Ensures the mask wraps around the text */
+  padding: 5px; /* Add some padding around the text */
+      backdrop-filter: "blur(5px)",
+}
+
+.masked-text {
+  color: black; /* Set the text color */
+  margin: 0; /* Remove default margin */
 }
 /*  */
 </style>

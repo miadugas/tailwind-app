@@ -121,10 +121,10 @@
           "id": 11,
           "title": "Grayify",
           "slug": "grayify",
-          "image": "/grayify.png",
+          "image": "/grayify2.png",
           "link": "https://github.com/miadugas/grayify",
-          "site": "https://grayify.vercel.app/",
-          "description": "A utility application that converts color pictures into grayscale pictures. User can choose to save as JPEG or PNG, adjust the size of the image upload and save locally."
+          "site": "https://grayify.netlify.app/",
+          "description": "A utility application that stands out for its user-friendly interface and real-time image conversion capabilities. The clean and straightforward design, featuring modern UI elements and best practices, enables users to quickly grasp its functionality. Real-time feedback is provided by displaying the grayscale version of an image immediately upon upload, allowing users to see the result and make adjustments, ultimately enhancing the overall user experience. Additionally, the application offers customizable output options and caters to various user needs and preferences. Users can adjust settings such as canvas dimensions and file type, ensuring greater control over the final output. This attention to detail and focus on user experience, combined with the application's unique features, makes it an intriguing and valuable tool for image conversion."
         }
       ]
     }
