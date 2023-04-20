@@ -50,7 +50,7 @@
           >
             <div class="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <h3
-                class="mt-32 text-3xl font-bold text-center md:mt-0 md:text-center text-gray-500"
+                class="text-3xl font-bold text-center md:mt-0 md:text-center text-gray-500"
               >
                 Frontend
               </h3>
@@ -872,7 +872,7 @@
             <!-- Panel Content -->
             <div class="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <h3
-                class="mt-14 text-3xl font-bold text-center md:mt-0 md:text-center text-gray-500"
+                class="text-3xl font-bold text-center md:mt-0 md:text-center text-gray-500"
               >
                 Backend
               </h3>
@@ -1479,7 +1479,7 @@
             <!-- Panel Content -->
             <div class="-mb-px mr-2 last:mr-0 flex-auto text-center">
               <h3
-                class="mt-14 text-3xl font-bold text-center md:mt-0 md:text-center text-gray-500"
+                class="text-3xl font-bold text-center md:mt-0 md:text-center text-gray-500"
               >
                 Tools
               </h3>

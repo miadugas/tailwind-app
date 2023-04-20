@@ -22,6 +22,9 @@
           <router-link to="/" class="mr-4 md:mr-6">Home</router-link>
         </li>
         <li>
+            <RouterLink to="/about" class="mr-4 md:mr-6">About</RouterLink>
+          </li>
+        <li>
           <router-link to="/experience" class="mr-4 md:mr-6">Experience</router-link>
         </li>
         <!-- <li>

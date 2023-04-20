@@ -56,15 +56,7 @@
                 <v-card-item>
                   <v-card-title>{{ app.title }}</v-card-title>
 
-                  <v-card-subtitle>
-                    <span class="me-1">Local Favorite</span>
 
-                    <v-icon
-                      color="error"
-                      icon="mdi-fire-circle"
-                      size="small"
-                    ></v-icon>
-                  </v-card-subtitle>
                 </v-card-item>
 
                 <v-card-text>
@@ -75,40 +67,35 @@
 
                 <v-divider class="mx-4 mb-1"></v-divider>
 
-                <v-card-title>Stack</v-card-title>
+                <!-- <v-card-title>Stack</v-card-title> -->
 
                 <div class="px-4">
-                  <v-chip-group>
-                    <v-chip>5:30PM</v-chip>
 
-                    <v-chip>7:30PM</v-chip>
-
-                    <v-chip>8:00PM</v-chip>
-
-                    <v-chip>9:00PM</v-chip>
-                  </v-chip-group>
                 </div>
-
-                <v-card-actions>
-                  <v-col cols="auto">
-                    <v-btn
-                      color="black"
-                      dark
-                      :href="app.link"
-                      density="default"
-                      icon="mdi-github"
-                    ></v-btn>
-                  </v-col>
-                  <v-col cols="auto">
-                    <v-btn
-                      color="black"
-                      dark
-                      :href="app.site"
-                      density="default"
-                      icon="mdi-open-in-new"
-                    ></v-btn>
-                  </v-col>
-                </v-card-actions>
+                <div class="button-container">
+    <v-card>
+      <v-card-actions>
+        <v-col cols="auto">
+          <v-btn
+            color="black"
+            dark
+            :href="app.link"
+            density="default"
+            icon="mdi-github"
+          ></v-btn>
+        </v-col>
+        <v-col cols="auto">
+          <v-btn
+            color="black"
+            dark
+            :href="app.site"
+            density="default"
+            icon="mdi-open-in-new"
+          ></v-btn>
+        </v-col>
+      </v-card-actions>
+    </v-card>
+  </div>
               </v-card>
             </div>
           </div>
@@ -261,5 +248,10 @@ export default {
 .zoom-in:hover {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
 }
 </style>

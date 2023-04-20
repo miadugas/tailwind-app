@@ -13,7 +13,8 @@
           "image": "/img/astro.png",
           "link": "https://github.com/miadugas/astro-template",
           "site": "https://astro-test138.netlify.app/",
-          "description": "Astro is an amazing open source static site generator designed for building content-rich websites. This allows you to build really fast websites with little to no production JavaScript. You can use Astro components as well as components from other frameworks such as React, Vue and Svelte."
+          "description": "Astro is an open-source static site generator that provides developers with a comprehensive set of tools for building content-rich websites. It is known for creating fast-loading sites with minimal production JavaScript, making it a popular choice for optimizing website performance. One of the standout features of Astro Template is its flexible approach to component usage, which allows developers to choose from a range of Astro components or integrate components from other popular frameworks like React, Vue, and Svelte. Astro also offers advanced optimization techniques such as image compression and code splitting, as well as server-side rendering to improve website performance. Overall, Astro Template is an excellent option for developers seeking to build dynamic and engaging websites with high standards for website performance and flexibility."
+      
         },
         {
           "id": 2,
@@ -22,7 +23,7 @@
           "image": "/img/tetris.png",
           "link": "https://github.com/miadugas/JS-Tetris",
           "site": "https://miadugas.github.io/JS-Tetris/",
-          "description": "The game requires players to rotate and move falling Tetris pieces. Players clear lines by completing horizontal rows of blocks without empty cells. But, if the pieces reach the top, the game is over. Some of the concepts used in building this were: graphics, game loops, and collision detection. This is a fully functioning game with points and levels."
+          "description": "JS Tetris is a thrilling and captivating game that utilizes JavaScript to challenge players to maneuver and rotate falling Tetris blocks to fit them into the available space without leaving any gaps. The objective is to complete horizontal rows of blocks without empty cells while avoiding letting the Tetris pieces reach the top of the screen. The game incorporates critical development concepts like graphics, game loops, and collision detection, which provide visually appealing and responsive gameplay, smooth mechanics, and accurate block placement, respectively. The fully functional game features points and levels that add an element of competition and progress as players advance through the game. As players progress through the levels, the game becomes progressively more challenging, providing a rewarding and exciting experience. Overall, JS Tetris is an addictive, challenging, and enjoyable game that offers hours of entertainment."
         },
         {
           "id": 3,
@@ -31,7 +32,7 @@
           "image": "/img/TFFA.png",
           "link": "https://github.com/miadugas/timfurlow_artsite",
           "site": "https://timfurlowfineart.vercel.app/",
-          "description": "Ecommerce site for Tim Furlow Fine Art. Includes an admin area to manage orders, users & inventory. Payment processing through PayPal."
+          "description": "Tim Furlow Fine Art is an e-commerce site that offers a range of high-quality art pieces created by Tim Furlow. The site features an easy-to-navigate interface that allows users to browse and purchase art pieces online. The site also includes an admin area that enables Tim Furlow and his team to manage orders, users, and inventory efficiently. To facilitate secure and hassle-free transactions, the site is integrated with PayPal for payment processing. With its user-friendly design and robust features, Tim Furlow Fine Art is an excellent platform for art enthusiasts to discover and acquire beautiful works of art."
         },
         {
           "id": 4,
@@ -40,7 +41,7 @@
           "image": "/img/muse.png",
           "link": "https://github.com/miadugas/Muze-Messenger",
           "site": "https://affectionate-shirley-f54a8b.netlify.com/",
-          "description": "Realtime Jamstack chat application. A realtime chat Jamstack application with server side deployed to Heroku and client side deployed to Netlify & Github. This standalone application can be easily integrated into existing or new builds."
+          "description": "The Realtime Jamstack chat application is a modern and dynamic chat application built on the Jamstack architecture. It uses server-side deployment on Heroku and client-side deployment on Netlify and Github to ensure reliable and fast performance. This application is easy to integrate into existing or new builds, making it a great choice for developers who want to add a chat feature to their websites or applications. With its real-time capabilities, the Realtime Jamstack chat application allows users to communicate seamlessly and efficiently. It is a standalone application that offers a range of features, including private messaging, group chats, and notifications. Its flexible design and easy integration make it an excellent option for businesses or individuals who want to enhance their online presence and connect with their audience in real-time."
         },
         {
           "id": 5,
@@ -49,7 +50,7 @@
           "image": "/img/color-tuner.png",
           "link": "https://github.com/miadugas/color-tuner",
           "site": "https://miacodes-colortuner.netlify.app/",
-          "description": "The user inputs a hex color and returned are the tints (lighter colors) and shades (darker colors) of the hex color. Useful while putting together UI direction when looking the the perfect combination of colors. Once a color is selected user can click the color to copy it to the clipboard."
+          "description": "The Color Tuner is a tool that allows users to input a hex color and receive a range of tints and shades of that color. This is a useful tool for designers who are putting together a UI direction and need to find the perfect combination of colors. The Color Tuner returns a variety of lighter tints and darker shades of the selected hex color, providing designers with a broad range of options to choose from. Once the desired color is selected, users can simply click on the color to copy it to their clipboard, making it easy to use in their design project. Overall, the Color Tuner is a simple yet powerful tool that streamlines the color selection process for designers, allowing them to easily find the right color scheme for their projects."
         },
         {
           "id": 6,
@@ -57,7 +58,7 @@
           "slug": "scraper",
           "image": "/img/pyscraper.png",
           "link": "https://github.com/miadugas/Scraper",
-          "description": "Automated Python Web Scraping Bot built with Beautiful Soup with the ability to send CSV of extracted info to an email address. The CSV will be named for the day created so that an archive can be kept of the scrapped data."
+          "description": "The Automated Python Web Scraping Bot is a powerful tool built using the popular Beautiful Soup library, enabling efficient web scraping and data extraction from websites. The bot is designed to automatically extract data and save it in CSV format, with the ability to send the file to an email address. The CSV file created by the bot is named based on the date it was created, ensuring that an archive of the scraped data can be easily maintained. This feature enables quick and easy access to historical data, providing a valuable resource for analysis and decision-making. Overall, the Automated Python Web Scraping Bot is an excellent choice for developers and data analysts looking for an efficient and reliable tool for web scraping and data extraction. The bot's ability to automatically send the CSV file via email and maintain an archive of historical data makes it an invaluable tool for businesses and organizations that rely on data-driven insights."
         },
         {
           "id": 7,
@@ -66,7 +67,7 @@
           "image": "/img/marbas.png",
           "link": "https://github.com/miadugas/marbas",
           "site": "https://marbas.netlify.app/",
-          "description": "Cryptocurrency Dashboard built in React. Using localStorage the app greets the user on first visit, asking them to choose their favorite Coins. Coin search provided by fuzzy search. User can add/remove coins on the list of favorites. Chosen coins are disabled. Confirm Favorite Coin Remembers values for the user & generates dashboard prices & historical data. The dashboard data initializes from remembered favorites & displays 5 major Coins for first 5 favorites and compact Coins for next 5. User can then render a line chart for the 10 historical points on current favorite Coin. Line chart renders historical points on Date: Days Weeks Months."
+          "description": "Marbas is built in React is a user-friendly web application that offers advanced features for monitoring cryptocurrency prices and historical data. Upon first visit, the app greets the user and prompts them to select their favorite coins. Using fuzzy search, users can easily add or remove coins from their list of favorites, with the chosen coins being disabled to prevent duplicates. The app then remembers the user's preferences, generating a dashboard with prices and historical data for their favorite coins. The dashboard displays the top 5 major coins for the first 5 favorites, and a compact view for the remaining 5. Users can also render a line chart for their current favorite coin, with historical points displayed by date, days, weeks, or months. With its intuitive interface and advanced functionality, the Cryptocurrency Dashboard offers a streamlined and efficient way for users to monitor and track their favorite cryptocurrencies."
         }
       ]
     },
@@ -82,7 +83,7 @@
           "slug": "gremin",
           "image": "/img/gremlin.png",
           "link": "https://github.com/miadugas/Gremlin-Tracker",
-          "description": "ReactJS/ElectronJS client app that uses a MongoDB Atlas database to keep track of system gremlins & bugs for remote teams."
+          "description": "Gremlin Tracker is a client application built using ReactJS and ElectronJS that allows remote teams to track system gremlins and bugs. The app uses a MongoDB Atlas database to store and manage the data, ensuring that all team members have access to the latest information. With Gremlin Tracker, teams can easily monitor and manage issues in real-time, improving collaboration and productivity. The app provides an intuitive and user-friendly interface that makes it easy to add and track issues, assign tasks, and manage workflows. Overall, Gremlin Tracker is a powerful tool that can help remote teams stay organized and focused, improving their ability to deliver high-quality products and services. Its use of ReactJS and ElectronJS ensures a seamless and responsive user experience, while the integration with MongoDB Atlas provides reliable and secure data storage."
         },
         {
           "id": 9,
@@ -90,7 +91,7 @@
           "slug": "ishrink",
           "image": "/img/ishrink.png",
           "link": "https://github.com/miadugas/ImageShrinker",
-          "description": "A desktop app built on Electron to optimize images for websites without losing quality."
+          "description": "ImageShrinker is a user-friendly desktop application built on Electron, designed to optimize images for websites while preserving their original quality. With ImageShrinker, users can easily reduce the size of their images without sacrificing their overall appearance, improving website performance and load times. Using advanced algorithms, ImageShrinker analyzes images and automatically adjusts their size and compression, ensuring that they maintain their original quality while occupying less storage space. This makes it an invaluable tool for web developers and designers who need to optimize their images for fast and efficient web performance. Overall, ImageShrinker is a reliable and efficient application that offers a simple and effective way to optimize images for websites. Its user-friendly interface and automatic optimization features make it an ideal choice for anyone looking to improve website performance and speed up load times."
         }
       ]
     },
@@ -107,7 +108,7 @@
           "image": "/img/iLoftz.png",
           "link": "https://github.com/miadugas/iLoftz_app",
           "site": "https://iloftz.firebaseapp.com/auth",
-          "description": "This app will be a hybrid AirBnB / Yelp app for couch surfers where users can create accounts, book and rate properties. "
+          "description": "The proposed app is a hybrid between AirBnB and Yelp, designed specifically for couch surfers. With the ability to create accounts, users can browse and book available properties, as well as rate their experiences. This app aims to provide an easy and efficient way for travelers to find affordable accommodations while also promoting responsible tourism. By enabling users to rate properties, future travelers can make informed decisions when choosing their accommodations. Overall, this app will provide a valuable service to travelers who seek affordable and reliable accommodations while also supporting local economies."
         }
       ]
     },

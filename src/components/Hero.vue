@@ -8,14 +8,12 @@
       <div class="max-w-xl text-center sm:text-left">
         <h1 class="text-3xl font-extrabold sm:text-5xl">
           I'm Mia
-
-          <strong class="mc block font-extrabold"> A Denver Developer </strong>
         </h1>
-        <div class="mask-background">
-          <p class="masked-text">
-            practicing minimalist & I build cool things for the web.
-          </p>
-        </div>
+          <div class="mask-background text-3xl font-extrabold sm:text-5xl">
+            <strong class="mc block font-extrabold">
+              A Denver Developer
+            </strong>
+          </div>
 
         <v-container mt-10>
           <v-row justify="center">
@@ -124,7 +122,7 @@ export default defineComponent({
 }
 
 .mc {
-  margin: 40px auto;
+  margin: 20px auto;
   font-family: "Ubuntu", sans-serif;
 
   font-weight: bold;
@@ -133,15 +131,23 @@ export default defineComponent({
   text-shadow: 20px 10px 0px #e7e1ff, -15px -6px 0px #d7f6ff;
 }
 .mask-background {
-  background-color: rgb(255, 255, 255); /* Set background color and opacity */
-  display: inline-block; /* Ensures the mask wraps around the text */
-  padding: 5px; /* Add some padding around the text */
-      backdrop-filter: "blur(5px)",
+  /* background-color: rgb(255, 255, 255); 
+  display: inline-block;
+  padding: 5px;
+      backdrop-filter: "blur(5px)", */
+  margin: 10px;
+  background-color: #ffffff;
+  opacity: 0.6;
+  display: inline-block;
+  background: rgba(244, 245, 244, 0.3)
 }
 
 .masked-text {
-  color: black; /* Set the text color */
-  margin: 0; /* Remove default margin */
+  color: black;
+  margin: 0;
+  font-weight: bold;
+  background-color: #ffffff;
+  opacity: 0.0;
 }
-/*  */
+
 </style>
