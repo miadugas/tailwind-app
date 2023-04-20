@@ -12,7 +12,7 @@
   </div>
   <div class="container-pic">
   <div class="image-wrapper">
-    <img src="/img/developer.png" alt="my image">
+    <img src="../../public/images/developer.png" alt="my image">
   </div>
 </div>
   <div class="mt-10 text-center border-b">
