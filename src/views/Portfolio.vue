@@ -53,8 +53,8 @@
                   alt="app.title"
                 ></v-img>
 
-                <v-card-item>
-                  <v-card-title>{{ app.title }}</v-card-title>
+                <v-card-item class="portfolio-text mb-3">
+                  <v-card-title >{{ app.title }}</v-card-title>
 
 
                 </v-card-item>
@@ -253,5 +253,11 @@ export default {
 .button-container {
   display: flex;
   justify-content: center;
+}
+
+.portfolio-text {
+  text-align: center;
+  border-bottom: 1px solid #e2e8f0; 
+  font-weight: 900;
 }
 </style>
