@@ -14,7 +14,6 @@
           "link": "https://github.com/miadugas/astro-template",
           "site": "https://astro-test138.netlify.app/",
           "description": "Astro is an open-source static site generator that provides developers with a comprehensive set of tools for building content-rich websites. It is known for creating fast-loading sites with minimal production JavaScript, making it a popular choice for optimizing website performance. One of the standout features of Astro Template is its flexible approach to component usage, which allows developers to choose from a range of Astro components or integrate components from other popular frameworks like React, Vue, and Svelte. Astro also offers advanced optimization techniques such as image compression and code splitting, as well as server-side rendering to improve website performance. Overall, Astro Template is an excellent option for developers seeking to build dynamic and engaging websites with high standards for website performance and flexibility."
-      
         },
         {
           "id": 2,
@@ -59,6 +58,15 @@
           "image": "/img/pyscraper.png",
           "link": "https://github.com/miadugas/Scraper",
           "description": "The Automated Python Web Scraping Bot is a powerful tool built using the popular Beautiful Soup library, enabling efficient web scraping and data extraction from websites. The bot is designed to automatically extract data and save it in CSV format, with the ability to send the file to an email address. The CSV file created by the bot is named based on the date it was created, ensuring that an archive of the scraped data can be easily maintained. This feature enables quick and easy access to historical data, providing a valuable resource for analysis and decision-making. Overall, the Automated Python Web Scraping Bot is an excellent choice for developers and data analysts looking for an efficient and reliable tool for web scraping and data extraction. The bot's ability to automatically send the CSV file via email and maintain an archive of historical data makes it an invaluable tool for businesses and organizations that rely on data-driven insights."
+        },
+        {
+          "id": 7,
+          "title": "Foodyssey",
+          "slug": "foodyssey",
+          "image": "/img/foodyssey.png",
+          "link": "https://github.com/miadugas/vue-meal-search",
+          "site": "https://foodyssey.netlify.app",
+          "description": "Foodyssey is a feature-rich web application that allows users to discover new and delicious meals from various cuisines. With an easy-to-use interface, the app offers a variety of options to find meals, including searching by name, browsing by first letter, or filtering by specific ingredients. The app also provides detailed information about each meal, including ingredients, preparation steps, and images, so users can recreate their favorite dishes at home. Whether you're an adventurous foodie looking to explore new culinary experiences or a home chef seeking inspiration, Foodyssey is your one-stop destination for delicious meal ideas."
         },
         {
           "id": 7,
