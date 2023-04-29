@@ -8,59 +8,6 @@
       "applications": [
         {
           "id": 1,
-          "title": "Astro Template",
-          "slug": "astro",
-          "image": "/img/astro.png",
-          "link": "https://github.com/miadugas/astro-template",
-          "site": "https://astro-test138.netlify.app/",
-          "description": "Astro is an open-source static site generator that provides developers with a comprehensive set of tools for building content-rich websites. It is known for creating fast-loading sites with minimal production JavaScript, making it a popular choice for optimizing website performance. One of the standout features of Astro Template is its flexible approach to component usage, which allows developers to choose from a range of Astro components or integrate components from other popular frameworks like React, Vue, and Svelte. Astro also offers advanced optimization techniques such as image compression and code splitting, as well as server-side rendering to improve website performance. Overall, Astro Template is an excellent option for developers seeking to build dynamic and engaging websites with high standards for website performance and flexibility."
-        },
-        {
-          "id": 2,
-          "title": "JS Tetris",
-          "slug": "tetris",
-          "image": "/img/tetris.png",
-          "link": "https://github.com/miadugas/JS-Tetris",
-          "site": "https://miadugas.github.io/JS-Tetris/",
-          "description": "JS Tetris is a thrilling and captivating game that utilizes JavaScript to challenge players to maneuver and rotate falling Tetris blocks to fit them into the available space without leaving any gaps. The objective is to complete horizontal rows of blocks without empty cells while avoiding letting the Tetris pieces reach the top of the screen. The game incorporates critical development concepts like graphics, game loops, and collision detection, which provide visually appealing and responsive gameplay, smooth mechanics, and accurate block placement, respectively. The fully functional game features points and levels that add an element of competition and progress as players advance through the game. As players progress through the levels, the game becomes progressively more challenging, providing a rewarding and exciting experience. Overall, JS Tetris is an addictive, challenging, and enjoyable game that offers hours of entertainment."
-        },
-        {
-          "id": 3,
-          "title": "Tim Furlow Fine Art",
-          "slug": "tffa",
-          "image": "/img/TFFA.png",
-          "link": "https://github.com/miadugas/timfurlow_artsite",
-          "site": "https://timfurlowfineart.vercel.app/",
-          "description": "Tim Furlow Fine Art is an e-commerce site that offers a range of high-quality art pieces created by Tim Furlow. The site features an easy-to-navigate interface that allows users to browse and purchase art pieces online. The site also includes an admin area that enables Tim Furlow and his team to manage orders, users, and inventory efficiently. To facilitate secure and hassle-free transactions, the site is integrated with PayPal for payment processing. With its user-friendly design and robust features, Tim Furlow Fine Art is an excellent platform for art enthusiasts to discover and acquire beautiful works of art."
-        },
-        {
-          "id": 4,
-          "title": "Muse Messenger",
-          "slug": "muse",
-          "image": "/img/muse.png",
-          "link": "https://github.com/miadugas/Muze-Messenger",
-          "site": "https://affectionate-shirley-f54a8b.netlify.com/",
-          "description": "The Realtime Jamstack chat application is a modern and dynamic chat application built on the Jamstack architecture. It uses server-side deployment on Heroku and client-side deployment on Netlify and Github to ensure reliable and fast performance. This application is easy to integrate into existing or new builds, making it a great choice for developers who want to add a chat feature to their websites or applications. With its real-time capabilities, the Realtime Jamstack chat application allows users to communicate seamlessly and efficiently. It is a standalone application that offers a range of features, including private messaging, group chats, and notifications. Its flexible design and easy integration make it an excellent option for businesses or individuals who want to enhance their online presence and connect with their audience in real-time."
-        },
-        {
-          "id": 5,
-          "title": "Color Tuner",
-          "slug": "color-tuner",
-          "image": "/img/color-tuner.png",
-          "link": "https://github.com/miadugas/color-tuner",
-          "site": "https://miacodes-colortuner.netlify.app/",
-          "description": "The Color Tuner is a tool that allows users to input a hex color and receive a range of tints and shades of that color. This is a useful tool for designers who are putting together a UI direction and need to find the perfect combination of colors. The Color Tuner returns a variety of lighter tints and darker shades of the selected hex color, providing designers with a broad range of options to choose from. Once the desired color is selected, users can simply click on the color to copy it to their clipboard, making it easy to use in their design project. Overall, the Color Tuner is a simple yet powerful tool that streamlines the color selection process for designers, allowing them to easily find the right color scheme for their projects."
-        },
-        {
-          "id": 6,
-          "title": "Python Scraper",
-          "slug": "scraper",
-          "image": "/img/pyscraper.png",
-          "link": "https://github.com/miadugas/Scraper",
-          "description": "The Automated Python Web Scraping Bot is a powerful tool built using the popular Beautiful Soup library, enabling efficient web scraping and data extraction from websites. The bot is designed to automatically extract data and save it in CSV format, with the ability to send the file to an email address. The CSV file created by the bot is named based on the date it was created, ensuring that an archive of the scraped data can be easily maintained. This feature enables quick and easy access to historical data, providing a valuable resource for analysis and decision-making. Overall, the Automated Python Web Scraping Bot is an excellent choice for developers and data analysts looking for an efficient and reliable tool for web scraping and data extraction. The bot's ability to automatically send the CSV file via email and maintain an archive of historical data makes it an invaluable tool for businesses and organizations that rely on data-driven insights."
-        },
-        {
-          "id": 7,
           "title": "Foodyssey",
           "slug": "foodyssey",
           "image": "/img/foodyssey.png",
@@ -69,7 +16,60 @@
           "description": "Foodyssey is a feature-rich web application that allows users to discover new and delicious meals from various cuisines. With an easy-to-use interface, the app offers a variety of options to find meals, including searching by name, browsing by first letter, or filtering by specific ingredients. The app also provides detailed information about each meal, including ingredients, preparation steps, and images, so users can recreate their favorite dishes at home. Whether you're an adventurous foodie looking to explore new culinary experiences or a home chef seeking inspiration, Foodyssey is your one-stop destination for delicious meal ideas."
         },
         {
+          "id": 2,
+          "title": "Astro Template",
+          "slug": "astro",
+          "image": "/img/astro.png",
+          "link": "https://github.com/miadugas/astro-template",
+          "site": "https://astro-test138.netlify.app/",
+          "description": "Astro is an open-source static site generator that provides developers with a comprehensive set of tools for building content-rich websites. It is known for creating fast-loading sites with minimal production JavaScript, making it a popular choice for optimizing website performance. One of the standout features of Astro Template is its flexible approach to component usage, which allows developers to choose from a range of Astro components or integrate components from other popular frameworks like React, Vue, and Svelte. Astro also offers advanced optimization techniques such as image compression and code splitting, as well as server-side rendering to improve website performance. Overall, Astro Template is an excellent option for developers seeking to build dynamic and engaging websites with high standards for website performance and flexibility."
+        },
+        {
+          "id": 3,
+          "title": "JS Tetris",
+          "slug": "tetris",
+          "image": "/img/tetris.png",
+          "link": "https://github.com/miadugas/JS-Tetris",
+          "site": "https://miadugas.github.io/JS-Tetris/",
+          "description": "JS Tetris is a thrilling and captivating game that utilizes JavaScript to challenge players to maneuver and rotate falling Tetris blocks to fit them into the available space without leaving any gaps. The objective is to complete horizontal rows of blocks without empty cells while avoiding letting the Tetris pieces reach the top of the screen. The game incorporates critical development concepts like graphics, game loops, and collision detection, which provide visually appealing and responsive gameplay, smooth mechanics, and accurate block placement, respectively. The fully functional game features points and levels that add an element of competition and progress as players advance through the game. As players progress through the levels, the game becomes progressively more challenging, providing a rewarding and exciting experience. Overall, JS Tetris is an addictive, challenging, and enjoyable game that offers hours of entertainment."
+        },
+        {
+          "id": 4,
+          "title": "Tim Furlow Fine Art",
+          "slug": "tffa",
+          "image": "/img/TFFA.png",
+          "link": "https://github.com/miadugas/timfurlow_artsite",
+          "site": "https://timfurlowfineart.vercel.app/",
+          "description": "Tim Furlow Fine Art is an e-commerce site that offers a range of high-quality art pieces created by Tim Furlow. The site features an easy-to-navigate interface that allows users to browse and purchase art pieces online. The site also includes an admin area that enables Tim Furlow and his team to manage orders, users, and inventory efficiently. To facilitate secure and hassle-free transactions, the site is integrated with PayPal for payment processing. With its user-friendly design and robust features, Tim Furlow Fine Art is an excellent platform for art enthusiasts to discover and acquire beautiful works of art."
+        },
+        {
+          "id": 5,
+          "title": "Muse Messenger",
+          "slug": "muse",
+          "image": "/img/muse.png",
+          "link": "https://github.com/miadugas/Muze-Messenger",
+          "site": "https://affectionate-shirley-f54a8b.netlify.com/",
+          "description": "The Realtime Jamstack chat application is a modern and dynamic chat application built on the Jamstack architecture. It uses server-side deployment on Heroku and client-side deployment on Netlify and Github to ensure reliable and fast performance. This application is easy to integrate into existing or new builds, making it a great choice for developers who want to add a chat feature to their websites or applications. With its real-time capabilities, the Realtime Jamstack chat application allows users to communicate seamlessly and efficiently. It is a standalone application that offers a range of features, including private messaging, group chats, and notifications. Its flexible design and easy integration make it an excellent option for businesses or individuals who want to enhance their online presence and connect with their audience in real-time."
+        },
+        {
+          "id": 6,
+          "title": "Color Tuner",
+          "slug": "color-tuner",
+          "image": "/img/color-tuner.png",
+          "link": "https://github.com/miadugas/color-tuner",
+          "site": "https://miacodes-colortuner.netlify.app/",
+          "description": "The Color Tuner is a tool that allows users to input a hex color and receive a range of tints and shades of that color. This is a useful tool for designers who are putting together a UI direction and need to find the perfect combination of colors. The Color Tuner returns a variety of lighter tints and darker shades of the selected hex color, providing designers with a broad range of options to choose from. Once the desired color is selected, users can simply click on the color to copy it to their clipboard, making it easy to use in their design project. Overall, the Color Tuner is a simple yet powerful tool that streamlines the color selection process for designers, allowing them to easily find the right color scheme for their projects."
+        },
+        {
           "id": 7,
+          "title": "Python Scraper",
+          "slug": "scraper",
+          "image": "/img/pyscraper.png",
+          "link": "https://github.com/miadugas/Scraper",
+          "description": "The Automated Python Web Scraping Bot is a powerful tool built using the popular Beautiful Soup library, enabling efficient web scraping and data extraction from websites. The bot is designed to automatically extract data and save it in CSV format, with the ability to send the file to an email address. The CSV file created by the bot is named based on the date it was created, ensuring that an archive of the scraped data can be easily maintained. This feature enables quick and easy access to historical data, providing a valuable resource for analysis and decision-making. Overall, the Automated Python Web Scraping Bot is an excellent choice for developers and data analysts looking for an efficient and reliable tool for web scraping and data extraction. The bot's ability to automatically send the CSV file via email and maintain an archive of historical data makes it an invaluable tool for businesses and organizations that rely on data-driven insights."
+        },
+        {
+          "id": 8,
           "title": "Marbas",
           "slug": "marbas",
           "image": "/img/marbas.png",
